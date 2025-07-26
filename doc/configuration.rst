@@ -3644,7 +3644,7 @@ The Reporter can be stopped with a call to the stop function:
     >>> ConsoleLoggingReporter.stop()
 
 Stopping the ConsoleLoggingReporter if it has not been started will raise an
-AssertionError, as will starting an already started StepReporter.
+AssertionError, as will starting an already started ConsoleLoggingReporter.
 
 Loggers
 -------
